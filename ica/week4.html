@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Design System</title>
+    <link rel="stylesheet" href="https://use.typekit.net/fgb6jxr.css">
+
+    <style>
+        html {
+            font-family: "dashiell-bright", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .color-box{
+            height: 75px;
+            width: 225px;
+        }
+
+        .spacing-box{
+            height: 75px;
+            width: 225px;
+            padding: 16px;
+            margin: 8px;
+            background-color:#484848;
+        }
+
+        #box1 {
+            background-color: #E7A441;
+        }
+
+        #box2{
+            background-color: #610B20;
+        }
+
+        #box3{
+            background-color: #F3BA7D;
+        }
+
+        #box4{
+            background-color: #484848;
+        }
+
+        p {
+            font-size: 16px;
+
+        }
+
+        .white-text{
+            color: white;
+        }
+
+        .small-text {
+            font-size: 12px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: #610B20;
+        }
+
+        a:visited{
+            color: #E7A441;
+        }
+
+        .button{
+            padding: 15px 32px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "color-box" id = "box1">
+        <p>Hex Code: #E7A441</p>
+        <p>Contrast Ratio: 9.78 : 1</p>
+    </div>
+
+    <div class = "color-box" id = "box2">
+        <p class = "white-text">Hex Code: #610B20</p>
+        <p class = "white-text">Contrast Ratio: 13:31 : 1</p>
+    </div>
+
+    <div class = "color-box" id = "box3">
+        <p>Hex Code: #F3BA7D</p>
+        <p>Contrast Ratio: 12.13 : 1</p>
+    </div>
+
+    <div class = "color-box" id = "box4">
+        <p class = "white-text">Hex Code: #484848</p>
+        <p class = "white-text">Contrast Ratio: 9.14 : 1</p>
+    </div>
+
+    <h1>This is a heading 1.</h1>
+    <h2>This is a heading 2.</h2>
+    <h3>This is a heading 3.</h3>
+
+    <div class = "spacing-box">
+        <p class = "white-text"> This is a box with a 8px margin</p>
+        <p class = "white-text"> and 16px padding.</p>
+    </div>
+    <p>This is paragraph text.</p>
+    <p class = "small-text"> This is small text.</p>
+
+    <p> Click this <a href="https://docs.google.com/document/d/1ENJEBFRgTnKz4d3WZ1cPw8qzB2jNnS5JVrrBJ3MgDNU/edit?usp=sharing">link</a> to access my write up.</p>
+
+    <p>This is a <button>button</button></p>
+</body>
+</html>
