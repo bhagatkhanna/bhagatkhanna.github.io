@@ -1,0 +1,61 @@
+
+body {
+    background-color: #F3BA7D;
+    margin: 8px;
+}
+
+html {
+    font-family: "dashiell-bright", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 16px;
+
+    }
+
+.white-text{
+    color: white;
+
+    }
+
+.small-text {
+    font-size: 12px;
+
+    }
+
+h3 {
+    font-size: 20px;
+
+    }
+
+h2 {
+    font-size: 24px;
+
+    }
+    
+h1 {
+    font-size: 28px;
+
+    }
+
+a:hover{
+    text-decoration: underline;
+    color: #610B20;
+
+    }
+
+a{
+    color: black;
+}
+
+.menu {
+    padding: 8px;
+    font-size: 24px;
+
+}
+
+.top-left {
+    padding-left: 0;
+}
