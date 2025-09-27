@@ -1,0 +1,96 @@
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1 fr 1fr;
+    gap: 50px;
+
+}
+
+.photo-card {
+    height: 300px;
+}
+
+.staff-description {
+    height: 300px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #F3BA7D;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2vw;
+}
+
+.nav-brand{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.nav-toggle {
+    display: none;
+   
+}
+
+span {
+     display: none;
+  
+}
+
+a{
+    padding: 5px;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media (max-width:768px){
+    
+    .nav-menu{
+        display:none;
+        flex-direction: column;
+        gap: 1em;
+        position: absolute;
+        top: 48px;
+        right: 8px;
+        padding: 1em;
+        background-color: blanchedalmond;
+    }
+
+    .nav-toggle{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        padding: .5em;
+        width: 30px;
+        height: 24px;
+            
+    }
+
+    span {
+        display: block;
+        height: 3px;
+        background: black;
+        border-radius: 2px;
+    
+    }
+    
+    .nav-menu.show{
+        display: flex;
+
+    }
+
+}

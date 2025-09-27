@@ -8,7 +8,6 @@
        
         .gallery-container { 
             display: grid; 
-            grid-template-rows: repeat(3, 1fr);
             grid-template-columns: 1fr 1fr;
             grid-template-areas: 
             "header header"
@@ -24,9 +23,8 @@
         }
 
         .photo-card {
-           flex: 1 1 300px; 
            height: 200px;
-           background-color: black;
+           background-color: beige;
 
         }
 
@@ -50,11 +48,11 @@
   </nav>
   <main class="gallery-grid">
     <div class="photo-card" data-category = "nature">Photo 1</div>
-    <div class="photo-card" data-category = "nature">Photo 2</div>
+    <div class="photo-card" data-category = "architecture">Photo 2</div>
     <div class="photo-card" data-category = "nature">Photo 3</div>
-    <div class="photo-card featured" data-category = "nature">Featured Photo</div>
+    <div class="photo-card featured" data-category = "architecture">Featured Photo</div>
     <div class="photo-card" data-category = "nature">Photo 5</div>
-    <div class="photo-card" data-category = "nature">Photo 6</div>
+    <div class="photo-card" data-category = "architecture">Photo 6</div>
   </main>
   <aside class="gallery-sidebar">Filter Options</aside>
 </div>
